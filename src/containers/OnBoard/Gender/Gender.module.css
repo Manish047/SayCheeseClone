@@ -1,0 +1,81 @@
+.Gender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(32, 10, 36), rgba(17, 17, 38, 0.87));
+    padding: 78px 32px 16px 32px;
+}
+
+.Title {
+    font-size: 1.8rem;
+    margin: 0 0 32px 0;
+    padding: 0;
+    color: white;
+    font-weight: normal;
+}
+
+.Selection {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.GenderButton{
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.Female, .Male {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 125px;
+    cursor: pointer;
+}
+
+.Avatar {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Avatar img {
+    height: 100%;
+    width: 100%;
+}
+
+.Label {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+@media(min-width: 1000px) {
+    .Gender {
+        height: 100vh;
+        padding: 16px 32px;
+    }
+    .Title {
+        font-size: 3rem;
+    }
+    .Selection {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .Female, .Male {
+        height: 300px;
+        width: 200px;
+    }
+    .Label {
+        font-size: 2.3rem;
+    }
+}

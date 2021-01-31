@@ -1,0 +1,38 @@
+.PartnersSlider {
+    text-align: center;
+    width: 85%;
+    padding: 16px 32px;
+    margin: auto;
+}
+
+.Title {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+}
+
+.ImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    width: 80% !important; 
+    height: 150px;
+}
+
+.ImageBox img{
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 1000px) {
+    .PartnersSlider {
+        padding: 48px;
+        width:70%;
+    }
+    .Title {
+        font-size: 3rem;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,41 @@
+.Input {
+    display: block;
+    margin: 8px auto;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 3px 20px;
+    outline: none;
+    height: 4.3rem;
+    border: 2px solid #eee;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.Invalid {
+    border: 2px solid red;
+}
+
+.Touched {
+    background-color: aliceblue;
+}
+
+.Input:focus {
+    border: 2px solid rgba(1, 1, 185, 0.774);
+    background-color: aliceblue;
+}
+
+@media(min-width: 1000px) {
+    .Input {
+        font-size: 1.3rem;
+    }
+}

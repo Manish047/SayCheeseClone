@@ -1,0 +1,11 @@
+.Logo {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+.Logo img {
+    height: 100%;
+    width: 100%;
+}

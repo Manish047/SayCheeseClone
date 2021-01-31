@@ -1,0 +1,28 @@
+.NavigationItems {
+    margin: 32px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.Login {
+    height: auto;
+}
+
+@media(min-width: 1000px) {
+    .NavigationItems {
+        flex-flow: row;
+        margin: 0;
+        align-items: center;
+    }
+    .Login {
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0 32px;
+        background-color: rgba(196, 196, 196, 0.29);
+    }
+}

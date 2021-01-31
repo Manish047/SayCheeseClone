@@ -1,0 +1,36 @@
+.FooterBottom {
+    width: 100%;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Aim {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.Aim p {
+    margin: 32px 0;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media(min-width: 550px) {
+    .FooterBottom {
+        flex-direction: row;
+        margin: auto;
+        padding: 48px;
+        width: 90%;
+    }
+    .Aim {
+        max-width: 450px;
+        margin-right: 16px;
+    }
+}

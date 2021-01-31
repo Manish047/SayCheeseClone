@@ -1,0 +1,43 @@
+.Button {
+    font-weight: 600;
+    letter-spacing: 0;
+    border-color: transparent;
+    color: #fff;
+    background-color: #fc024d;
+    padding: 0.7rem 1.7rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Flat {
+    font-weight: 600;
+    letter-spacing: 0;
+    border-color: transparent;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    backdrop-filter: blur(1rem);
+    padding: 0.7rem 1.7rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+@media(min-width: 1000px) {
+    .Button {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+    .Flat {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+}

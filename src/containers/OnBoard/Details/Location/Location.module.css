@@ -1,0 +1,16 @@
+.LocationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.Title{
+    font-weight: normal;
+    color: white
+}
+
+.ContinueButton{
+    margin: 32px 0;
+}

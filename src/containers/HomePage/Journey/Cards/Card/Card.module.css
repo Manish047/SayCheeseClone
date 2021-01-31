@@ -1,0 +1,81 @@
+.Card {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8px 2px;
+    max-width: 50px;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card:hover {
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0, 20%) 0px 4px 8px 0px, rgb(0, 0, 0, 19%) 0px 6px 25px 0px;
+}
+
+.Card h3, .Card h4 {
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    font: 'Open Sans';
+    font-weight: bold;
+}
+
+.Card h3 {
+    font-size: 0.5rem;
+}
+
+.Card h4 {
+    font-size: 0.3rem;
+    display: none;
+}
+
+.Card .Avatar {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin: 16px;
+}
+
+.Card .Avatar img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+.Card.Active {
+    transform: scale(1.2, 1.2);
+    box-shadow: rgb(0, 0, 0, 20%) 0px 4px 8px 0px, rgb(0, 0, 0, 19%) 0px 6px 25px 0px;
+}
+
+.Card.Active img {
+    border: 2px solid red;
+}
+
+@media(min-width: 450px) {
+    .Card{
+        margin: 8px;
+    }
+    .Card h4 {
+        display: block;
+    }
+}
+
+@media(min-width: 1000px) {
+    .Card {
+        margin: 16px 32px;
+        width: auto;
+        max-width: 200px;
+        padding: 8px;
+        max-height: fit-content;
+    }
+    .Card h3 {
+        font-size: 1rem;
+    }
+    .Card h4 {
+        font-size: 0.8rem;
+    }
+}

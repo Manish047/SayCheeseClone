@@ -1,0 +1,41 @@
+.BenefitsSlider {
+    text-align: center;
+    width: 85%;
+    padding: 16px 32px;
+    margin: auto;
+}
+
+.Title {
+    font-size: 1.8rem;
+    margin:  0 0 16px 0;
+    padding: 0;
+    color: #212529;
+}
+
+.ImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95% !important;
+    height: 200px;
+    border: 1px solid #212529;
+}
+
+.ImageBox img {
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 1000px) {
+    .BenefitsSlider {
+        padding: 48px;
+        width: 70%;
+    }
+    .Title {
+        font-size: 3rem;
+        margin: 0 0 32px 0;
+    }
+    .ImageBox {
+        height: 300px;
+    }
+}

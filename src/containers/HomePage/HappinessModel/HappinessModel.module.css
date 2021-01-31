@@ -1,0 +1,135 @@
+.HappinessModel {
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #200a24;
+}
+
+.Title {
+    font-size: 1.8rem;
+    margin: 16px 0;
+    padding: 0;
+    color: white;
+}
+
+.Content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextContent {
+    text-align: left;
+    width: 100%;
+}
+
+.Text {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.ModelTitle {
+    color: #200a24;
+    font-size: 1rem;
+    margin: 0;
+    width: 100%;
+    max-width: 480px;
+    font-weight: normal;
+    background-color: #eee;
+}
+
+.Model {
+    height: 400px;
+    max-height: 500px;
+    width: 100%;
+    max-width: 480px;
+    padding: 4px;
+    background-color: #eee;
+    position: relative;
+}
+
+.Model img {
+    height: 70%;
+    width: 70%;
+    margin-top: 32px;
+}
+
+.Model button {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px rgba( 0, 0, 0, 0.3);
+    position: absolute;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Progress */
+
+.Model button:nth-child(3) {
+    top: 15%;
+    left: 5%
+}
+
+/* Control */
+
+.Model button:nth-child(4) {
+    top: 15%;
+    right: 5%;
+}
+
+/* Gratitude */
+
+.Model button:nth-child(5) {
+    bottom: 5%;
+    left: 5%
+}
+
+/* Experiences */
+
+.Model button:nth-child(6) {
+    bottom: 5%;
+    right: 5%
+}
+
+.Model button img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+@media(min-width: 1000px) {
+    .HappinessModel {
+        padding: 48px;
+    }
+    .Title {
+        font-size: 3rem;
+    }
+    .SubTitle {
+        font-size: 1.8rem;
+    }
+    .Content {
+        flex-direction: row;
+        align-items: flex-start;
+        width: 90%;
+        margin: 32px 0;
+    }
+    .TextContent {
+        padding: 32px;
+        width: 60%;
+    }
+    .Model {
+        width: 40%;
+        min-height: 60vh;
+    }
+    .ModelTitle {
+        font-size: 1.3rem;
+    }
+    .Model img {
+        margin-top: 32px;
+    }
+}

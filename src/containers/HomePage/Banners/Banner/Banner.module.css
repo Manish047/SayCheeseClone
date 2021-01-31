@@ -1,0 +1,73 @@
+.Banner {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.Content {
+    height: 100%;
+    width: 50%;
+    padding: 32px;
+    text-align: left;
+    display: flex;
+    background-color: #200a24;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Title {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+    margin: 16px 0;
+}
+
+.SubTitle {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    color: white;
+    margin: 16px 0;
+
+}
+
+.Content button {
+    position: relative;
+    bottom: -10%;
+}
+
+.ImageBox {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.ImageBox img{
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 1000px){
+    .Content{
+        padding: 78px;
+    }
+    .Content button{
+        bottom: -20%;
+    }
+    .Title{
+        font-size: 2.3rem;
+    }
+    .SubTitle{
+        font-size: 1.5rem;
+    }
+}

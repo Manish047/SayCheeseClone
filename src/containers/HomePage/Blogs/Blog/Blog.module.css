@@ -1,0 +1,80 @@
+.Blog {
+    background-image: linear-gradient(to bottom right, rgba(32, 10, 36, 0.6), rgba(32, 10, 36, 0.6)), url('//api.saycheese.life/media/blog/blog_15/Say_Cheese-_blog_image.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 8px;
+    padding: 32px;
+    margin: 16px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.Tag {
+    background-color: #1ed660;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    margin: 0 0 16px 0;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.Text {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.Action {
+    margin: 32px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Action p {
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Avatar img {
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 1000px) {
+    .Blog {
+        padding: 48px;
+        background-position: top;
+        width: 80%;
+        margin: 32px 0;
+    }
+    .Tag {
+        font-size: 2.2rem;
+    }
+    .Text {
+        font-size: 2.2rem;
+    }
+    .Action {
+        margin: 64px 0 0 0;
+    }
+    .Action p {
+        font-size: 2rem;
+    }
+    .Avatar {
+        height: 200px;
+        width: 200px;
+    }
+}

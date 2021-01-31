@@ -1,0 +1,62 @@
+.TakeAssesmentCard {
+    padding: 16px 32px;
+    background-color: #200a24;
+    width: 100%;
+    height: auto;
+}
+
+.Title {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description p {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: white;
+    text-align: justify;
+}
+
+.Action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+
+.Action img {
+    height: 150px;
+    width: 175px;
+}
+
+@media(min-width: 1000px) {
+    .TakeAssesmentCard {
+        padding: 48px;
+    }
+    .Title {
+        font-size: 3rem;
+    }
+    .Description {
+        text-align: left;
+        width: 60%;
+    }
+    .Action {
+        height: 400px;
+        width: 40%;
+        max-width: 450px;
+    }
+    .Description p {
+        font-size: 1.5rem;
+    }
+    .Content {
+        flex-direction: row;
+    }
+}

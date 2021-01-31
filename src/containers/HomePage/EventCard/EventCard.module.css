@@ -1,0 +1,79 @@
+.EventCard {
+    padding: 16px 32px;
+}
+
+.Title {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+}
+
+.Card {
+    margin: 16px auto;
+    padding: 16px;
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(32, 10, 36, 0.6), rgba(32, 10, 36, 0.6)), url('https://devsaycheese.com/assets/images/home/freshlybaked.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.EventTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+.EventTitle .Text {
+    font-size: 1.6rem;
+    color: white
+}
+
+.MainContent {
+    padding: 0 16px;
+    text-align: left;
+}
+
+.MainContent .Text {
+    margin: 16px 0;
+    padding: 0;
+    text-align: left;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.74;
+}
+
+@media(min-width: 550px) {
+    .EventTitle {
+        justify-content: flex-start;
+    }
+}
+
+@media(min-width: 1000px) {
+    .Title {
+        font-size: 3rem;
+        margin: 0 0 32px 0;
+    }
+    .EventCard {
+        padding: 48px;
+    }
+    .Card {
+        padding: 48px;
+        height: 80vh;
+    }
+    .EventTitle .Text {
+        font-size: 2.5rem;
+    }
+    .MainContent .Text {
+        font-size: 2.2rem;
+    }
+}

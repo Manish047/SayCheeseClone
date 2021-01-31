@@ -1,0 +1,18 @@
+.Cards {
+    margin: 16px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 30%;
+    margin: auto;
+}
+
+@media(min-width: 1000px) {
+    .Cards {
+        height: auto;
+        justify-content: center;
+        width: 100%;
+    }
+}

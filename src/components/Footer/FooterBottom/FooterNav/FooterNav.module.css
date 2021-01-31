@@ -1,0 +1,20 @@
+.FooterNav {
+    text-align: right;
+    align-self: flex-end;
+    color: white;
+}
+
+.NavItems {
+    list-style: none;
+}
+
+.NavItem {
+    margin: 1.3rem 0;
+    white-space: nowrap;
+}
+
+@media(min-width: 550px) {
+    .FooterNav {
+        align-self: center;
+    }
+}

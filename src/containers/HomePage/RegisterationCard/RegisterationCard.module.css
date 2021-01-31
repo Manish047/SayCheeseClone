@@ -1,0 +1,107 @@
+.RegisterationCard {
+    width: 100%;
+    padding: 32px;
+    background-color: #200a24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title {
+    font-size: 1.8rem;
+    margin: 16px 0;
+    padding: 0;
+    color: white;
+}
+
+.SubTitle {
+    font-size: 1.2rem;
+    margin: 16px 0;
+    padding: 0;
+    color: white;
+}
+
+.Form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.InputData {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InputElement {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.Heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 16px auto;
+}
+
+.Heading img {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.Heading h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    margin: 0 1rem;
+}
+
+.RegisterButton {
+    margin: 32px;
+}
+
+@media(min-width: 1000px) {
+    .RegisterationCard {
+        padding: 48px;
+        height: 100vh;
+ 
+    }
+    .Title {
+        font-size: 3rem;
+    }
+    .SubTitle {
+        font-size: 1.8rem;
+    }
+    .Form{
+        align-items: center;
+    }
+    .InputData {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 80%;
+        max-width: 800px;
+    }
+    .Heading{
+        margin: 16px auto;
+    }
+    .Heading h3{
+        font-size: 1.6rem;
+    }
+    .InputElement {
+        margin: 16px;
+    }
+}
